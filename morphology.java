@@ -21,7 +21,7 @@ public class morphology{
 	public static int colNum, rowNum, minScale, maxScale;
  
 	public static void main( String [ ] args ) throws IOException {
-		readFile("input_threshold.txt");
+		readFile("input.txt");
 		zeroFrame(a);
 		b=new int [a.length][a[0].length]; //temporary arrays
 		c=new int [a.length][a[0].length];//temporary arrays
